@@ -41,8 +41,16 @@ ul li{
 
 .hidden{
   display: none;
+  position:absolute;
+  box-shadow: 1px 1px 1px 1px;
+  margin-top:10px;
+
 }
 
+nav ul li ul li{
+  display: block;
+  font-size: 12px;
+}
 select{
   border: none;
 }
