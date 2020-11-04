@@ -20,6 +20,12 @@ a{
   text-decoration: none;
 }
 
+li a:hover , li span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color:black;
+}
+
 #headcontainer{
   width: 80%;
   height: 100%;
