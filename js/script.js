@@ -3,13 +3,10 @@
 
 $('nav ul li').each(function(){
   $(this).click(function(){
+    var el = $(this).children('.dropdown');
     $('nav ul li').each(function(){
       $(this).children('.dropdown').slideUp();
     })
-    if($(this).children('.dropdown').is(':visible')){
-      $(this).children('.dropdown').slideUp();
-    }else{
-      $(this).children('.dropdown').slideDown()
-    }
+    el.is(':visible') ? el.slideUp() : el.slideDown();
   })
-})
+});
