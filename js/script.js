@@ -1,6 +1,3 @@
-
-
-
 $('nav ul li').each(function(){
   $(this).click(function(){
     var el = $(this).children('.dropdown');

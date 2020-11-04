@@ -3,11 +3,21 @@
   padding: 0;
   margin:0;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 header{
+  color:#7e7e7e;
   position: sticky;
   height:90px;
   width:100%;
+}
+select{
+  apparance:none;
+}
+a{
+  text-decoration: none;
 }
 
 #headcontainer{
@@ -42,14 +52,16 @@ ul li{
 .hidden{
   display: none;
   position:absolute;
-  box-shadow: 1px 1px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   margin-top:10px;
+  line-height: 3;
+  padding: 15px;
 
 }
 
 nav ul li ul li{
   display: block;
-  font-size: 12px;
+  font-size: 15px;
 }
 select{
   border: none;
