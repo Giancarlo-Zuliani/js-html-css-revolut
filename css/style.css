@@ -15,14 +15,34 @@ header{
   height: 100%;
   display: flex;
   justify-content:space-between;
-  align-items: center;
+  align-items:center;
+  margin:0 auto;
 }
 
+#logo{
+  display: flex;
+  align-items: center;
+  width:30%;
+}
+
+#logo span{
+  margin-right: 20px;
+}
+
+#logo img{
+  width:50%;
+  margin-right:25px;
+}
 
 ul li{
-  display: inline-block;
+  display:inline-block;
+  margin-right: 10px;
 }
 
 .hidden{
   display: none;
+}
+
+select{
+  border: none;
 }
