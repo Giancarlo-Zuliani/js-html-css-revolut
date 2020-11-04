@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+header{
+  position: sticky;
+  height:90px;
+  width:100%;
+}
+
+#headcontainer{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+ul li{
+  display: inline-block;
+}
+
+.hidden{
+  display: none;
+}
