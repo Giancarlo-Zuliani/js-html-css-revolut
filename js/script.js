@@ -9,10 +9,9 @@ $('nav ul > li').each(function(){
   })
 });
 
-$('.dropdown').each(function(){
-  $(this).mouseleave(function(){
+
+  $('.dropdown').mouseleave(function(){
     $('nav ul li').each(function(){
       $(this).children('.dropdown').slideUp();
     })
   })
-})
