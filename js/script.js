@@ -1,4 +1,5 @@
-$('nav ul  li').click(function(){
+
+$('nav ul li').click(function(){
   var el = $(this).children('.dropdown');
   $('nav ul li').each(function(){
     $(this).children('.dropdown').slideUp();
@@ -7,6 +8,6 @@ $('nav ul  li').click(function(){
 });
 
 
-$('.dropdown').mouseleave(function(){
+$('header').mouseleave(function(){
   $('nav ul li').children('.dropdown').slideUp();
 })
