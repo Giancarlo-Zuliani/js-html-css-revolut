@@ -8,3 +8,11 @@ $('nav ul > li').each(function(){
     el.is(':visible') ? el.slideUp() : el.slideDown();
   })
 });
+
+$('.dropdown').each(function(){
+  $(this).mouseleave(function(){
+    $('nav ul li').each(function(){
+      $(this).children('.dropdown').slideUp();
+    })
+  })
+})
